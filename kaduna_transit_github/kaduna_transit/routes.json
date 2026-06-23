@@ -1,0 +1,1486 @@
+{
+  "sabon tasha|barnawa": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "10–15 mins",
+      "notes": "Board at Sabon Tasha junction. Alight at Barnawa roundabout. Faster but slightly pricier."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "15–25 mins",
+      "notes": "Take a bus heading to Barnawa from Sabon Tasha motor park. Cheaper but takes longer."
+    }
+  ],
+  "sabon tasha|kawo": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "20–30 mins",
+      "notes": "Take a bus heading to Kawo from Sabon Tasha motor park."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦500",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Sabon Tasha. Faster but more expensive for this longer route."
+    }
+  ],
+  "sabon tasha|tudun wada": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "10–20 mins",
+      "notes": "Board at Sabon Tasha main road heading to Tudun Wada."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "15–25 mins",
+      "notes": "Take a bus from Sabon Tasha motor park. Cheaper option."
+    }
+  ],
+  "sabon tasha|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦300",
+      "duration": "25–35 mins",
+      "notes": "Take a bus heading to central Kaduna from Sabon Tasha park."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦600",
+      "duration": "20–30 mins",
+      "notes": "Board keke at Sabon Tasha. Faster but expensive for long distance."
+    }
+  ],
+  "sabon tasha|ungwan rimi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Sabon Tasha heading towards Ungwan Rimi."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–30 mins",
+      "notes": "Take a bus from Sabon Tasha heading to Ungwan Rimi. Budget option."
+    }
+  ],
+  "barnawa|sabon tasha": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "10–15 mins",
+      "notes": "Board at Barnawa roundabout heading to Sabon Tasha."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "15–25 mins",
+      "notes": "Take a bus from Barnawa to Sabon Tasha. Cheaper option."
+    }
+  ],
+  "barnawa|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦250",
+      "duration": "20–30 mins",
+      "notes": "Take a bus from Barnawa market heading to central Kaduna."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦500",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Barnawa for a faster ride to Kaduna Central."
+    }
+  ],
+  "barnawa|kawo": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦300",
+      "duration": "30–40 mins",
+      "notes": "Take a bus via Kaduna central to Kawo."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦700",
+      "duration": "25–35 mins",
+      "notes": "Board keke at Barnawa. Faster but more expensive for this long route."
+    }
+  ],
+  "barnawa|ungwan rimi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Board keke at Barnawa roundabout heading to Ungwan Rimi."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦120",
+      "duration": "15–20 mins",
+      "notes": "Short bus ride from Barnawa to Ungwan Rimi. Budget option."
+    }
+  ],
+  "barnawa|television": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "15–20 mins",
+      "notes": "Board keke at Barnawa heading towards Television area."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–25 mins",
+      "notes": "Take a bus from Barnawa to Television area."
+    }
+  ],
+  "kawo|sabon tasha": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "20–30 mins",
+      "notes": "Take a bus from Kawo motor park towards Sabon Tasha."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦500",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Kawo for a faster ride to Sabon Tasha."
+    }
+  ],
+  "kawo|barnawa": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦300",
+      "duration": "30–40 mins",
+      "notes": "Take a bus from Kawo heading south towards Barnawa."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦700",
+      "duration": "25–35 mins",
+      "notes": "Board keke at Kawo. Faster but expensive for this long route."
+    }
+  ],
+  "kawo|ungwan rimi": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "10–20 mins",
+      "notes": "Short bus ride from Kawo to Ungwan Rimi."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "8–15 mins",
+      "notes": "Board keke at Kawo for a quicker ride to Ungwan Rimi."
+    }
+  ],
+  "kawo|tudun wada": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "15–20 mins",
+      "notes": "Board keke from Kawo towards Tudun Wada."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–25 mins",
+      "notes": "Take a bus from Kawo to Tudun Wada. Cheaper option."
+    }
+  ],
+  "kawo|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "15–25 mins",
+      "notes": "Regular buses run from Kawo to central Kaduna."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦400",
+      "duration": "12–20 mins",
+      "notes": "Board keke at Kawo for a faster ride to Kaduna Central."
+    }
+  ],
+  "kawo|kaduna north": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦150",
+      "duration": "10–15 mins",
+      "notes": "Short keke ride from Kawo to Kaduna North."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦100",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Kawo to Kaduna North. Budget option."
+    }
+  ],
+  "kaduna central|barnawa": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦250",
+      "duration": "20–30 mins",
+      "notes": "Board a bus from central Kaduna heading to Barnawa."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦500",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Kaduna Central for a faster ride to Barnawa."
+    }
+  ],
+  "kaduna central|sabon tasha": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦200 – ₦300",
+      "duration": "25–35 mins",
+      "notes": "Take a bus heading south to Sabon Tasha."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦600",
+      "duration": "20–30 mins",
+      "notes": "Board keke at Kaduna Central. Faster but pricier."
+    }
+  ],
+  "kaduna central|kawo": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "15–25 mins",
+      "notes": "Regular buses run from central Kaduna to Kawo."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦400",
+      "duration": "12–20 mins",
+      "notes": "Board keke for a faster ride to Kawo."
+    }
+  ],
+  "kaduna central|malali": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦200",
+      "duration": "10–20 mins",
+      "notes": "Take a bus from the city centre heading to Malali."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "8–15 mins",
+      "notes": "Board keke at Kaduna Central for a quicker trip to Malali."
+    }
+  ],
+  "kaduna central|ungwan rimi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Short keke ride within central Kaduna area."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦120",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Kaduna Central to Ungwan Rimi. Budget option."
+    }
+  ],
+  "kaduna central|narayi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "15–20 mins",
+      "notes": "Board keke from central Kaduna towards Narayi."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "18–25 mins",
+      "notes": "Take a bus from Kaduna Central to Narayi. Cheaper option."
+    }
+  ],
+  "ungwan rimi|barnawa": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Board keke at Ungwan Rimi heading to Barnawa."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦120",
+      "duration": "15–20 mins",
+      "notes": "Take a bus from Ungwan Rimi to Barnawa. Budget option."
+    }
+  ],
+  "ungwan rimi|kawo": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "10–20 mins",
+      "notes": "Short bus ride from Ungwan Rimi to Kawo."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "8–15 mins",
+      "notes": "Board keke at Ungwan Rimi for a quicker trip to Kawo."
+    }
+  ],
+  "ungwan rimi|kaduna central": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Board keke heading to central Kaduna."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦120",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Ungwan Rimi to Kaduna Central."
+    }
+  ],
+  "ungwan rimi|sabon tasha": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "15–25 mins",
+      "notes": "Board keke heading south to Sabon Tasha."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–30 mins",
+      "notes": "Take a bus from Ungwan Rimi to Sabon Tasha. Budget option."
+    }
+  ],
+  "tudun wada|sabon tasha": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "10–20 mins",
+      "notes": "Board keke from Tudun Wada heading to Sabon Tasha."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "15–25 mins",
+      "notes": "Take a bus from Tudun Wada to Sabon Tasha. Cheaper option."
+    }
+  ],
+  "tudun wada|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "15–20 mins",
+      "notes": "Board keke from Tudun Wada heading north to Kawo."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–25 mins",
+      "notes": "Take a bus from Tudun Wada to Kawo. Budget option."
+    }
+  ],
+  "tudun wada|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "15–25 mins",
+      "notes": "Take a bus from Tudun Wada to central Kaduna."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "12–20 mins",
+      "notes": "Board keke at Tudun Wada for a faster trip to Kaduna Central."
+    }
+  ],
+  "tudun wada|barnawa": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "20–30 mins",
+      "notes": "Board keke from Tudun Wada heading to Barnawa."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "25–35 mins",
+      "notes": "Take a bus from Tudun Wada to Barnawa. Cheaper option."
+    }
+  ],
+  "malali|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦200",
+      "duration": "10–20 mins",
+      "notes": "Take a bus from Malali to Kaduna central."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "8–15 mins",
+      "notes": "Board keke at Malali for a faster ride to Kaduna Central."
+    }
+  ],
+  "malali|kawo": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦250",
+      "duration": "15–25 mins",
+      "notes": "Board bus from Malali heading to Kawo."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "12–20 mins",
+      "notes": "Board keke at Malali for a quicker trip to Kawo."
+    }
+  ],
+  "malali|ungwan rimi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Short keke ride from Malali to Ungwan Rimi."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦120",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Malali to Ungwan Rimi. Budget option."
+    }
+  ],
+  "narayi|kaduna central": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "15–20 mins",
+      "notes": "Board keke from Narayi heading to central Kaduna."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "18–25 mins",
+      "notes": "Take a bus from Narayi to Kaduna Central. Cheaper option."
+    }
+  ],
+  "narayi|barnawa": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Board keke from Narayi heading to Barnawa."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦120",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Narayi to Barnawa. Budget option."
+    }
+  ],
+  "narayi|television": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦150",
+      "duration": "5–10 mins",
+      "notes": "Short keke ride from Narayi to Television area."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦100",
+      "duration": "8–12 mins",
+      "notes": "Take a bus from Narayi to Television. Budget option."
+    }
+  ],
+  "television|barnawa": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "15–20 mins",
+      "notes": "Board keke at Television area heading to Barnawa."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦100 – ₦150",
+      "duration": "20–25 mins",
+      "notes": "Take a bus from Television to Barnawa. Budget option."
+    }
+  ],
+  "television|narayi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦150",
+      "duration": "5–10 mins",
+      "notes": "Short keke ride from Television to Narayi."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦100",
+      "duration": "8–12 mins",
+      "notes": "Take a bus from Television to Narayi. Budget option."
+    }
+  ],
+  "television|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦250",
+      "duration": "20–30 mins",
+      "notes": "Take a bus from Television area to central Kaduna."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦450",
+      "duration": "15–25 mins",
+      "notes": "Board keke at Television for a faster ride to Kaduna Central."
+    }
+  ],
+  "kaduna north|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦150",
+      "duration": "10–15 mins",
+      "notes": "Board keke at Kaduna North heading to Kawo."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦100",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Kaduna North to Kawo. Budget option."
+    }
+  ],
+  "kaduna north|kaduna central": [
+    {
+      "vehicle": "Bus",
+      "fare": "₦150 – ₦200",
+      "duration": "15–25 mins",
+      "notes": "Take a bus from Kaduna North to central Kaduna."
+    },
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "12–20 mins",
+      "notes": "Board keke at Kaduna North for a faster ride to Kaduna Central."
+    }
+  ],
+  "kaduna north|malali": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "10–15 mins",
+      "notes": "Short keke ride from Kaduna North to Malali."
+    },
+    {
+      "vehicle": "Bus",
+      "fare": "₦80 – ₦120",
+      "duration": "12–18 mins",
+      "notes": "Take a bus from Kaduna North to Malali. Budget option."
+    }
+  ],
+  "kawo|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Kawo. Alight at Old Nda Site."
+    }
+  ],
+  "kawo|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site. Alight at Angwan Sarki."
+    }
+  ],
+  "kawo|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki. Alight at Utc."
+    }
+  ],
+  "kawo|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc. Alight at Nepa Roundabout."
+    }
+  ],
+  "kawo|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout. Alight at Leventis."
+    }
+  ],
+  "kawo|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout, Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "kawo|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "kawo|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "kawo|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦600",
+      "duration": "18–27 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "kawo|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦550 – ₦650",
+      "duration": "20–30 mins",
+      "notes": "Board at Kawo. Pass Old Nda Site, Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "old nda site|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "old nda site|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Old Nda Site. Alight at Angwan Sarki."
+    }
+  ],
+  "old nda site|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki. Alight at Utc."
+    }
+  ],
+  "old nda site|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc. Alight at Nepa Roundabout."
+    }
+  ],
+  "old nda site|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout. Alight at Leventis."
+    }
+  ],
+  "old nda site|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout, Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "old nda site|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "old nda site|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "old nda site|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "old nda site|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦600",
+      "duration": "18–27 mins",
+      "notes": "Board at Old Nda Site. Pass Angwan Sarki, Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "angwan sarki|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Angwan Sarki. Pass Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "angwan sarki|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "angwan sarki|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Angwan Sarki. Alight at Utc."
+    }
+  ],
+  "angwan sarki|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc. Alight at Nepa Roundabout."
+    }
+  ],
+  "angwan sarki|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout. Alight at Leventis."
+    }
+  ],
+  "angwan sarki|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout, Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "angwan sarki|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout, Leventis, Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "angwan sarki|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "angwan sarki|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "angwan sarki|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Angwan Sarki. Pass Utc, Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "utc|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Utc. Pass Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "utc|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Utc. Pass Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "utc|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "utc|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Utc. Alight at Nepa Roundabout."
+    }
+  ],
+  "utc|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout. Alight at Leventis."
+    }
+  ],
+  "utc|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout, Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "utc|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout, Leventis, Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "utc|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "utc|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "utc|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Utc. Pass Nepa Roundabout, Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "nepa roundabout|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Nepa Roundabout. Pass Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "nepa roundabout|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Nepa Roundabout. Pass Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "nepa roundabout|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Nepa Roundabout. Pass Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "nepa roundabout|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "nepa roundabout|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Nepa Roundabout. Alight at Leventis."
+    }
+  ],
+  "nepa roundabout|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Nepa Roundabout. Pass Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "nepa roundabout|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Nepa Roundabout. Pass Leventis, Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "nepa roundabout|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Nepa Roundabout. Pass Leventis, Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "nepa roundabout|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Nepa Roundabout. Pass Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "nepa roundabout|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Nepa Roundabout. Pass Leventis, Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "leventis|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Leventis. Pass Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "leventis|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Leventis. Pass Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "leventis|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Leventis. Pass Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "leventis|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Leventis. Pass Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "leventis|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "leventis|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Leventis. Alight at Cooperative Market."
+    }
+  ],
+  "leventis|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Leventis. Pass Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "leventis|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Leventis. Pass Cooperative Market, Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "leventis|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Leventis. Pass Cooperative Market, Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "leventis|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Leventis. Pass Cooperative Market, Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "cooperative market|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Cooperative Market. Pass Leventis, Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "cooperative market|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Cooperative Market. Pass Leventis, Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "cooperative market|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Cooperative Market. Pass Leventis, Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "cooperative market|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Cooperative Market. Pass Leventis, Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "cooperative market|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Cooperative Market. Pass Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "cooperative market|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Cooperative Market. Alight at Leventis."
+    }
+  ],
+  "cooperative market|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Cooperative Market. Alight at Stadium Roundabout."
+    }
+  ],
+  "cooperative market|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Cooperative Market. Pass Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "cooperative market|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Cooperative Market. Pass Stadium Roundabout, Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "cooperative market|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Cooperative Market. Pass Stadium Roundabout, Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "stadium roundabout|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "stadium roundabout|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "stadium roundabout|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market, Leventis, Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "stadium roundabout|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market, Leventis, Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "stadium roundabout|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market, Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "stadium roundabout|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Stadium Roundabout. Pass Cooperative Market. Alight at Leventis."
+    }
+  ],
+  "stadium roundabout|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Stadium Roundabout. Alight at Cooperative Market."
+    }
+  ],
+  "stadium roundabout|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Stadium Roundabout. Alight at Station Market Roundabout."
+    }
+  ],
+  "stadium roundabout|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Stadium Roundabout. Pass Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "stadium roundabout|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Stadium Roundabout. Pass Station Market Roundabout, Television Garage. Alight at Command Junction."
+    }
+  ],
+  "station market roundabout|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "station market roundabout|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "station market roundabout|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "station market roundabout|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "station market roundabout|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market, Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "station market roundabout|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout, Cooperative Market. Alight at Leventis."
+    }
+  ],
+  "station market roundabout|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Station Market Roundabout. Pass Stadium Roundabout. Alight at Cooperative Market."
+    }
+  ],
+  "station market roundabout|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Station Market Roundabout. Alight at Stadium Roundabout."
+    }
+  ],
+  "station market roundabout|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Station Market Roundabout. Alight at Television Garage."
+    }
+  ],
+  "station market roundabout|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Station Market Roundabout. Pass Television Garage. Alight at Command Junction."
+    }
+  ],
+  "television garage|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦600",
+      "duration": "18–27 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "television garage|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "television garage|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "television garage|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "television garage|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "television garage|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout, Cooperative Market. Alight at Leventis."
+    }
+  ],
+  "television garage|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout, Stadium Roundabout. Alight at Cooperative Market."
+    }
+  ],
+  "television garage|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Television Garage. Pass Station Market Roundabout. Alight at Stadium Roundabout."
+    }
+  ],
+  "television garage|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Television Garage. Alight at Station Market Roundabout."
+    }
+  ],
+  "television garage|command junction": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Television Garage. Alight at Command Junction."
+    }
+  ],
+  "command junction|kawo": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦550 – ₦650",
+      "duration": "20–30 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki, Old Nda Site. Alight at Kawo."
+    }
+  ],
+  "command junction|old nda site": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦500 – ₦600",
+      "duration": "18–27 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc, Angwan Sarki. Alight at Old Nda Site."
+    }
+  ],
+  "command junction|angwan sarki": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦450 – ₦550",
+      "duration": "16–24 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout, Utc. Alight at Angwan Sarki."
+    }
+  ],
+  "command junction|utc": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦400 – ₦500",
+      "duration": "14–21 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis, Nepa Roundabout. Alight at Utc."
+    }
+  ],
+  "command junction|nepa roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦350 – ₦450",
+      "duration": "12–18 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market, Leventis. Alight at Nepa Roundabout."
+    }
+  ],
+  "command junction|leventis": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦300 – ₦400",
+      "duration": "10–15 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout, Cooperative Market. Alight at Leventis."
+    }
+  ],
+  "command junction|cooperative market": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦250 – ₦350",
+      "duration": "8–12 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout, Stadium Roundabout. Alight at Cooperative Market."
+    }
+  ],
+  "command junction|stadium roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦200 – ₦300",
+      "duration": "6–9 mins",
+      "notes": "Board at Command Junction. Pass Television Garage, Station Market Roundabout. Alight at Stadium Roundabout."
+    }
+  ],
+  "command junction|station market roundabout": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦250",
+      "duration": "4–6 mins",
+      "notes": "Board at Command Junction. Pass Television Garage. Alight at Station Market Roundabout."
+    }
+  ],
+  "command junction|television garage": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦100 – ₦200",
+      "duration": "2–5 mins",
+      "notes": "Board at Command Junction. Alight at Television Garage."
+    }
+  ],
+  "kawo|narayi": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "20–25 mins",
+      "notes": "Board bus at Kawo heading to Narayi"
+    }
+  ],
+  "kawo|mando": [
+    {
+      "vehicle": "Keke (Tricycle)",
+      "fare": "₦150 – ₦200",
+      "duration": "20–25 mins",
+      "notes": "board to kawo"
+    }
+  ]
+}
