@@ -1,19 +1,27 @@
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 from chatbot_engine import process_message
-from database import init_db, load_routes, save_route, delete_route, update_route
+import json
 import os
 
 app = Flask(__name__)
 app.secret_key = "kaduna_transit_secret_2025"
+
 ADMIN_PASSWORD = "admin1234"
+ROUTES_FILE = os.path.join(os.path.dirname(__file__), "routes.json")
 
 
-# ── Init database on startup ─────────────────────────────────
-with app.app_context():
-    init_db()
+def load_routes():
+    if not os.path.exists(ROUTES_FILE):
+        return {}
+    with open(ROUTES_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-# ── Main chatbot ─────────────────────────────────────────────
+def save_routes(routes):
+    with open(ROUTES_FILE, "w", encoding="utf-8") as f:
+        json.dump(routes, f, ensure_ascii=False, indent=2)
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -29,7 +37,6 @@ def chat():
     return jsonify({"reply": response})
 
 
-# ── Admin login ──────────────────────────────────────────────
 @app.route("/admin", methods=["GET", "POST"])
 def admin():
     if request.method == "POST":
@@ -51,7 +58,6 @@ def admin_logout():
     return redirect(url_for("admin"))
 
 
-# ── Admin: Add route ─────────────────────────────────────────
 @app.route("/admin/add", methods=["POST"])
 def admin_add():
     if not session.get("admin"):
@@ -66,34 +72,61 @@ def admin_add():
         routes = load_routes()
         return render_template("admin.html", logged_in=True, routes=routes,
                                error="All fields are required.")
-    save_route(origin, destination, vehicle, fare, duration, notes)
+    routes = load_routes()
+    key = f"{origin}|{destination}"
+    new_option = {"vehicle": vehicle, "fare": fare, "duration": duration, "notes": notes}
+    if key in routes:
+        routes[key].append(new_option)
+    else:
+        routes[key] = [new_option]
+    save_routes(routes)
     return redirect(url_for("admin"))
 
 
-# ── Admin: Edit route ─────────────────────────────────────────
 @app.route("/admin/edit", methods=["POST"])
 def admin_edit():
     if not session.get("admin"):
         return redirect(url_for("admin"))
-    route_id = request.form.get("route_id", "")
+    key      = request.form.get("key", "")
+    idx      = request.form.get("idx", "0")
     vehicle  = request.form.get("vehicle", "").strip()
     fare     = request.form.get("fare", "").strip()
     duration = request.form.get("duration", "").strip()
     notes    = request.form.get("notes", "").strip()
-    if not all([route_id, vehicle, fare, duration, notes]):
+    if not all([key, vehicle, fare, duration, notes]):
         return redirect(url_for("admin"))
-    update_route(route_id, vehicle, fare, duration, notes)
+    routes = load_routes()
+    if key in routes:
+        try:
+            i = int(idx)
+            if 0 <= i < len(routes[key]):
+                routes[key][i] = {"vehicle": vehicle, "fare": fare, "duration": duration, "notes": notes}
+                save_routes(routes)
+        except (ValueError, IndexError):
+            pass
     return redirect(url_for("admin"))
 
 
-# ── Admin: Delete route ──────────────────────────────────────
 @app.route("/admin/delete", methods=["POST"])
 def admin_delete():
     if not session.get("admin"):
         return redirect(url_for("admin"))
-    route_id = request.form.get("route_id", "")
-    if route_id:
-        delete_route(route_id)
+    key = request.form.get("key", "")
+    idx = request.form.get("idx", None)
+    routes = load_routes()
+    if key in routes:
+        if idx is not None:
+            try:
+                i = int(idx)
+                if 0 <= i < len(routes[key]):
+                    routes[key].pop(i)
+                if len(routes[key]) == 0:
+                    del routes[key]
+            except (ValueError, IndexError):
+                pass
+        else:
+            del routes[key]
+        save_routes(routes)
     return redirect(url_for("admin"))
 
 
