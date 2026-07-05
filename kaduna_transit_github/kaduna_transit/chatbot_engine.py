@@ -43,12 +43,14 @@ def normalize(text):
 def extract_locations(user_input):
     normalized_input = normalize(user_input)
     all_locations = get_all_locations()
-    found = []
+    found_with_pos = []
     for loc in all_locations:
-        if loc in normalized_input and loc not in found:
-            found.append(loc)
-            normalized_input = normalized_input.replace(loc, "___", 1)
-    return found
+        pos = normalized_input.find(loc)
+        if pos != -1:
+            found_with_pos.append((pos, loc))
+            normalized_input = normalized_input.replace(loc, "_" * len(loc), 1)
+    found_with_pos.sort(key=lambda x: x[0])
+    return [loc for pos, loc in found_with_pos]
 
 
 GREETING_WORDS = {"hello", "hi", "hey", "good morning", "good afternoon", "good evening"}
