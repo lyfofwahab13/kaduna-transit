@@ -18,13 +18,13 @@
       "vehicle": "Bus",
       "fare": "₦800 – ₦1200",
       "duration": "35–60 mins",
-      "notes": "Take a bus heading to Kawo from Sabon Tasha motor park."
+      "notes": "Head to the main Sabon Tasha Garage or wait along the roadside near the market, look for a bus with conductors calling “Kawo! Kawo!”, then board it and travel along Kachia Road through Command Junction, across the bridge to Station Roundabout, continue on Ahmadu Bello Way past the Central Market, Stadium Roundabout, and NDA, and drop at Kawo Flyover/Kawo Terminal."
     },
     {
       "vehicle": "Keke (Tricycle)",
       "fare": "₦1000 – ₦1400",
       "duration": "45–55 mins",
-      "notes": "Board keke at Sabon Tasha. Faster but more expensive for this longer route."
+      "notes": "Board a keke from Sabon Tasha heading towards town along Kachia Road, drop at Station Roundabout, then cross over to the Kawo/Ahmadu Bello Way loading point and board a direct keke heading north past Stadium Roundabout and NDA to Kawo Flyover/Kawo Garage."
     }
   ],
   "sabon tasha|tudun wada": [
@@ -32,13 +32,13 @@
       "vehicle": "Keke (Tricycle)",
       "fare": "₦900 – ₦1300",
       "duration": "30–45 mins",
-      "notes": "Board at Sabon Tasha main road heading to Tudun Wada."
+      "notes": "Stand along Kachia Road or head to the Sabon Tasha market axis and board any keke heading toward town (Gari), alight at Station Roundabout, then cross over to the Polytechnic Road/Ibrahim Taiwo Road axis and board a keke heading to Tudun Wada, which will take you over the bridge/bypass area and drop you in the heart of Tudun Wada."
     },
     {
       "vehicle": "Bus",
       "fare": "₦800 – ₦1200",
       "duration": "30–45 mins",
-      "notes": "Take a bus from Sabon Tasha motor park. Cheaper option."
+      "notes": "Head to the main Sabon Tasha Garage or board any bus along Kachia Road heading into town (Gari), drop at Station Roundabout, then walk to the right side of the roundabout or the nearby motor park and board a local bus heading to Tudun Wada via Ibrahim Taiwo Road or Kaduna Polytechnic."
     }
   ],
   "sabon tasha|kaduna central": [
@@ -46,13 +46,13 @@
       "vehicle": "Bus",
       "fare": "₦400 – ₦600",
       "duration": "25–40 mins",
-      "notes": "Take a bus heading to central Kaduna from Sabon Tasha park."
+      "notes": "Go to the main Sabon Tasha Garage or stand along Kachia Road, board a bus with conductors calling “Kasuwa!” (Market) or “Town/Gari,” then travel along Kachia Road through Command Junction, across Station Roundabout, and continue on Ahmadu Bello Way to the Central Market axis or Leventis."
     },
     {
       "vehicle": "Keke (Tricycle)",
       "fare": "₦600 – ₦800",
       "duration": "20–25 mins",
-      "notes": "Board keke at Sabon Tasha. Faster but expensive for long distance."
+      "notes": "Head to the main road along Kachia Road in Sabon Tasha or stand near the market axis, board a keke heading to Kasuwa (Market) or Town/Gari, then travel along Kachia Road past Command Junction and Television Garage, across the main bridge to Station Roundabout, and continue straight into the heart of Ahmadu Bello Way/Central Market."
     }
   ],
   "sabon tasha|ungwan rimi": [
