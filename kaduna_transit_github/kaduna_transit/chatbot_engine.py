@@ -1,29 +1,21 @@
 # ============================================================
-# Chatbot Engine — reads routes from routes.json (scalable)
+# Chatbot Engine — reads routes from PostgreSQL database
 # ============================================================
-import re
 import string
-import json
-import os
 
-ROUTES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "routes.json")
+
+def normalize(text):
+    text = text.lower()
+    text = text.translate(str.maketrans("", "", string.punctuation))
+    return text.strip()
 
 
 def load_routes():
-    """Load routes from JSON file at runtime so new routes work immediately."""
-    if not os.path.exists(ROUTES_FILE):
-        # Fallback to transport_data.py if JSON not generated yet
-        from transport_data import TRANSPORT_ROUTES
-        routes = {}
-        for (o, d), opts in TRANSPORT_ROUTES.items():
-            routes[f"{o}|{d}"] = opts
-        return routes
-    with open(ROUTES_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    from database import load_routes_for_chatbot
+    return load_routes_for_chatbot()
 
 
 def get_all_locations():
-    """Derive all known locations from routes.json dynamically."""
     routes = load_routes()
     locs = set()
     for key in routes:
@@ -32,12 +24,6 @@ def get_all_locations():
             locs.add(parts[0].strip())
             locs.add(parts[1].strip())
     return sorted(locs, key=len, reverse=True)
-
-
-def normalize(text):
-    text = text.lower()
-    text = text.translate(str.maketrans("", "", string.punctuation))
-    return text.strip()
 
 
 def extract_locations(user_input):
@@ -122,7 +108,7 @@ def process_message(user_input):
     origin      = locations[0]
     destination = locations[1]
 
-    routes = load_routes()
+    routes  = load_routes()
     key     = f"{origin}|{destination}"
     key_rev = f"{destination}|{origin}"
 
@@ -136,9 +122,7 @@ def process_message(user_input):
         result = f"MULTI_ROUTE:{origin}:{destination}:"
         parts  = []
         for o in options:
-            parts.append(
-                f"{o['vehicle']}|{o['fare']}|{o['duration']}|{o['notes']}"
-            )
+            parts.append(f"{o['vehicle']}|{o['fare']}|{o['duration']}|{o['notes']}")
         result += "||".join(parts)
         return result
 
