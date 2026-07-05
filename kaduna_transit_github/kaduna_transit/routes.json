@@ -2,97 +2,97 @@
   "sabon tasha|barnawa": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦200 – ₦300",
-      "duration": "10–15 mins",
+      "fare": "₦1000 – ₦1400",
+      "duration": "35–55 mins",
       "notes": "Board at Sabon Tasha junction. Alight at Barnawa roundabout. Faster but slightly pricier."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦150",
-      "duration": "15–25 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "45–65 mins",
       "notes": "Take a bus heading to Barnawa from Sabon Tasha motor park. Cheaper but takes longer."
     }
   ],
   "sabon tasha|kawo": [
     {
       "vehicle": "Bus",
-      "fare": "₦150 – ₦200",
-      "duration": "20–30 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "35–60 mins",
       "notes": "Take a bus heading to Kawo from Sabon Tasha motor park."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦350 – ₦500",
-      "duration": "15–25 mins",
+      "fare": "₦1000 – ₦1400",
+      "duration": "45–55 mins",
       "notes": "Board keke at Sabon Tasha. Faster but more expensive for this longer route."
     }
   ],
   "sabon tasha|tudun wada": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦150 – ₦250",
-      "duration": "10–20 mins",
+      "fare": "₦900 – ₦1300",
+      "duration": "30–45 mins",
       "notes": "Board at Sabon Tasha main road heading to Tudun Wada."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦150",
-      "duration": "15–25 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "30–45 mins",
       "notes": "Take a bus from Sabon Tasha motor park. Cheaper option."
     }
   ],
   "sabon tasha|kaduna central": [
     {
       "vehicle": "Bus",
-      "fare": "₦200 – ₦300",
-      "duration": "25–35 mins",
+      "fare": "₦400 – ₦600",
+      "duration": "25–40 mins",
       "notes": "Take a bus heading to central Kaduna from Sabon Tasha park."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦400 – ₦600",
-      "duration": "20–30 mins",
+      "fare": "₦600 – ₦800",
+      "duration": "20–25 mins",
       "notes": "Board keke at Sabon Tasha. Faster but expensive for long distance."
     }
   ],
   "sabon tasha|ungwan rimi": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦200 – ₦300",
-      "duration": "15–25 mins",
+      "fare": "₦1000 – ₦1400",
+      "duration": "35–40 mins",
       "notes": "Board keke at Sabon Tasha heading towards Ungwan Rimi."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦150",
-      "duration": "20–30 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "35–55 mins",
       "notes": "Take a bus from Sabon Tasha heading to Ungwan Rimi. Budget option."
     }
   ],
   "barnawa|sabon tasha": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦200 – ₦300",
-      "duration": "10–15 mins",
+      "fare": "₦800 – ₦1100",
+      "duration": "20–35 mins",
       "notes": "Board at Barnawa roundabout heading to Sabon Tasha."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦150",
-      "duration": "15–25 mins",
+      "fare": "₦800 – ₦1000",
+      "duration": "35–40 mins",
       "notes": "Take a bus from Barnawa to Sabon Tasha. Cheaper option."
     }
   ],
   "barnawa|kaduna central": [
     {
       "vehicle": "Bus",
-      "fare": "₦200 – ₦250",
-      "duration": "20–30 mins",
+      "fare": "₦400 – ₦600",
+      "duration": "30–35 mins",
       "notes": "Take a bus from Barnawa market heading to central Kaduna."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦350 – ₦500",
+      "fare": "₦500 – ₦800",
       "duration": "15–25 mins",
       "notes": "Board keke at Barnawa for a faster ride to Kaduna Central."
     }
@@ -100,41 +100,41 @@
   "barnawa|kawo": [
     {
       "vehicle": "Bus",
-      "fare": "₦200 – ₦300",
-      "duration": "30–40 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "40–55 mins",
       "notes": "Take a bus via Kaduna central to Kawo."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦500 – ₦700",
-      "duration": "25–35 mins",
+      "fare": "₦1000 – ₦1400",
+      "duration": "35–45 mins",
       "notes": "Board keke at Barnawa. Faster but more expensive for this long route."
     }
   ],
   "barnawa|ungwan rimi": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦150 – ₦200",
-      "duration": "10–15 mins",
+      "fare": "₦900 – ₦1300",
+      "duration": "25–40 mins",
       "notes": "Board keke at Barnawa roundabout heading to Ungwan Rimi."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦120",
-      "duration": "15–20 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "35–45 mins",
       "notes": "Short bus ride from Barnawa to Ungwan Rimi. Budget option."
     }
   ],
   "barnawa|television": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦200 – ₦300",
+      "fare": "₦400 – ₦500",
       "duration": "15–20 mins",
       "notes": "Board keke at Barnawa heading towards Television area."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦100 – ₦150",
+      "fare": "₦300 – ₦350",
       "duration": "20–25 mins",
       "notes": "Take a bus from Barnawa to Television area."
     }
