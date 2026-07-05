@@ -1,18 +1,19 @@
-# ============================================================
-# Chatbot Engine — reads routes from PostgreSQL database
-# ============================================================
 import string
+import json
+import os
 
-
-def normalize(text):
-    text = text.lower()
-    text = text.translate(str.maketrans("", "", string.punctuation))
-    return text.strip()
+ROUTES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "routes.json")
 
 
 def load_routes():
-    from database import load_routes_for_chatbot
-    return load_routes_for_chatbot()
+    if not os.path.exists(ROUTES_FILE):
+        from transport_data import TRANSPORT_ROUTES
+        routes = {}
+        for (o, d), opts in TRANSPORT_ROUTES.items():
+            routes[f"{o}|{d}"] = opts
+        return routes
+    with open(ROUTES_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def get_all_locations():
@@ -24,6 +25,12 @@ def get_all_locations():
             locs.add(parts[0].strip())
             locs.add(parts[1].strip())
     return sorted(locs, key=len, reverse=True)
+
+
+def normalize(text):
+    text = text.lower()
+    text = text.translate(str.maketrans("", "", string.punctuation))
+    return text.strip()
 
 
 def extract_locations(user_input):
