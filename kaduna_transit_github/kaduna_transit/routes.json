@@ -142,28 +142,28 @@
   "kawo|sabon tasha": [
     {
       "vehicle": "Bus",
-      "fare": "₦150 – ₦200",
-      "duration": "20–30 mins",
+      "fare": "₦800 – ₦1200",
+      "duration": "55–60 mins",
       "notes": "Take a bus from Kawo motor park towards Sabon Tasha."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦350 – ₦500",
-      "duration": "15–25 mins",
+      "fare": "₦1100 – ₦1500",
+      "duration": "40–50 mins",
       "notes": "Board keke at Kawo for a faster ride to Sabon Tasha."
     }
   ],
   "kawo|barnawa": [
     {
       "vehicle": "Bus",
-      "fare": "₦200 – ₦300",
-      "duration": "30–40 mins",
+      "fare": "₦800 – ₦1100",
+      "duration": "45–55 mins",
       "notes": "Take a bus from Kawo heading south towards Barnawa."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦500 – ₦700",
-      "duration": "25–35 mins",
+      "fare": "₦1000 – ₦1400",
+      "duration": "30–45 mins",
       "notes": "Board keke at Kawo. Faster but expensive for this long route."
     }
   ],
