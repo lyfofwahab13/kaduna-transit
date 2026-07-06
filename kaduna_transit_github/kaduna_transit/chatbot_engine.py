@@ -1,7 +1,7 @@
 import string
 import json
 import os
-import difflib  # Used for global typo correction
+import difflib  # Used for advanced phrase matching and typo correction
 
 ROUTES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "routes.json")
 
@@ -38,10 +38,10 @@ def normalize(text):
 
 def extract_locations(user_input):
     """
-    Extracts Kaduna locations from user input.
-    1. First Pass: Checks for exact matches.
-    2. Second Pass: Checks for global partial shortcuts (e.g., 'old nda' -> 'old nda site', 'sabon' -> 'sabon tasha').
-    3. Third Pass: Falls back to fuzzy matching for remaining words to fix typos.
+    Extracts Kaduna locations from user input using an advanced fuzzy phrase matcher.
+    1. First Pass: Checks for exact matches to preserve clean text input.
+    2. Second Pass: Chunks words up to 3 words long and performs fuzzy sequence matching 
+       to catch heavy typos and abbreviations across entire phrases (e.g., 'ungwn rmi').
     """
     normalized_input = normalize(user_input)
     all_locations = get_all_locations()
@@ -55,42 +55,54 @@ def extract_locations(user_input):
             # Mask out the matched location so individual words aren't double-processed
             normalized_input = normalized_input.replace(loc, "_" * len(loc), 1)
             
-    # 2. Second Pass: Check for partial matches / shortcut phrases across all locations
+    # 2. Second Pass: Advanced Fuzzy Phrase Matcher for abbreviations and typos
     input_words = normalized_input.split()
     
-    # Evaluate word combinations (e.g., bigrams like "old nda" or single words like "sabon")
+    # Check chunks up to 3 words long (e.g., "ungwn rmi" or "stshn mkt")
     for length in range(min(3, len(input_words)), 0, -1):
         for i in range(len(input_words) - length + 1):
             phrase = " ".join(input_words[i:i+length])
+            
+            # Skip pieces that are already masked out or too small to be meaningful
             if "_" in phrase or len(phrase) < 3: 
                 continue
                 
+            best_match = None
+            highest_score = 0.0
+            
+            # Look for the closest match across all known locations
             for loc in all_locations:
-                # If the partial phrase is a substring of an official location name
-                if phrase in loc:
-                    orig_pos = normalize(user_input).find(phrase)
-                    if orig_pos != -1:
-                        found_with_pos.append((orig_pos, loc))
-                        # Mask it out so the third pass ignores it
-                        normalized_input = normalized_input.replace(phrase, "_" * len(phrase), 1)
-                        break
-                        
-    # 3. Third Pass: Clean up remaining individual words with fuzzy matching for typos
-    words = [w for w in normalized_input.split() if "_" not in w]
-    for word in words:
-        if len(word) < 4:
-            continue
-        matches = difflib.get_close_matches(word, all_locations, n=1, cutoff=0.7)
-        if matches:
-            corrected_loc = matches[0]
-            pos = normalize(user_input).find(word)
-            if pos != -1:
-                found_with_pos.append((pos, corrected_loc))
+                # SequenceMatcher evaluates how similar two strings are (0.0 to 1.0)
+                score = difflib.SequenceMatcher(None, phrase, loc).ratio()
                 
-    # Sort all dynamically extracted nodes by original sentence position layout
+                # Also check if the phrase is a messy subset of a longer location name
+                if len(phrase) < len(loc):
+                    # Check sliding windows inside the target location name
+                    for start in range(len(loc) - len(phrase) + 1):
+                        sub_loc = loc[start:start+len(phrase)]
+                        sub_score = difflib.SequenceMatcher(None, phrase, sub_loc).ratio()
+                        if sub_score > score:
+                            score = sub_score
+                
+                if score > highest_score:
+                    highest_score = score
+                    best_match = loc
+            
+            # If we find a highly confident match (above 65% similarity)
+            if best_match and highest_score >= 0.65:
+                orig_pos = normalize(user_input).find(phrase)
+                if orig_pos != -1:
+                    found_with_pos.append((orig_pos, best_match))
+                    # Mask it out so we don't double-extract its sub-words
+                    normalized_input = normalized_input.replace(phrase, "_" * len(phrase), 1)
+                    # Re-split words to adjust for the structural mask mutation
+                    input_words = normalized_input.split()
+                    break
+                        
+    # Sort all found locations by sentence position order
     found_with_pos.sort(key=lambda x: x[0])
     
-    # Deduplicate entries while fully maintaining sentence contextual sequence
+    # Deduplicate entries while keeping sentence context sequence
     final_locations = []
     for pos, loc in found_with_pos:
         if loc not in final_locations:
