@@ -4,7 +4,7 @@
       "vehicle": "Keke (Tricycle)",
       "fare": "₦1000 – ₦1400",
       "duration": "35–55 mins",
-      "notes": "Board at Sabon Tasha junction. Alight at Barnawa roundabout. Faster but slightly pricier."
+      "notes": "Head to the main Kachia Road corridor at Sabon Tasha Garage, the market, or any major bus stop and board a keke heading to Station or Gari, drop at Command Junction, then cross to the Barnawa link road loading point and board another keke that will take you into Barnawa, where you can drop at Barnawa Market, the Shopping Complex, or along the main boulevard."
     },
     {
       "vehicle": "Bus",
@@ -212,7 +212,7 @@
   "kawo|kaduna north": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦100 – ₦150",
+      "fare": "₦300 – ₦150",
       "duration": "10–15 mins",
       "notes": "Short keke ride from Kawo to Kaduna North."
     },
