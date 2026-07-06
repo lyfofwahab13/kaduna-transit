@@ -1,7 +1,7 @@
 import string
 import json
 import os
-import difflib  # Added for fallback spelling correction
+import difflib  # Used for global typo correction
 
 ROUTES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "routes.json")
 
@@ -39,42 +39,58 @@ def normalize(text):
 def extract_locations(user_input):
     """
     Extracts Kaduna locations from user input.
-    First checks for exact matches to preserve clean multi-word areas,
-    then falls back to fuzzy matching for remaining words to catch typos.
+    1. First Pass: Checks for exact matches.
+    2. Second Pass: Checks for global partial shortcuts (e.g., 'old nda' -> 'old nda site', 'sabon' -> 'sabon tasha').
+    3. Third Pass: Falls back to fuzzy matching for remaining words to fix typos.
     """
     normalized_input = normalize(user_input)
     all_locations = get_all_locations()
     found_with_pos = []
     
-    # 1. Check for exact matches first (prevents multi-word locations from breaking)
+    # 1. First Pass: Check for exact matches first
     for loc in all_locations:
         pos = normalized_input.find(loc)
         if pos != -1:
             found_with_pos.append((pos, loc))
-            # Mask out the matched location so its individual words aren't double-checked
+            # Mask out the matched location so individual words aren't double-processed
             normalized_input = normalized_input.replace(loc, "_" * len(loc), 1)
             
-    # 2. Split remaining unmasked text into words to catch typos
-    words = [w for w in normalized_input.split() if "_" not in w]
+    # 2. Second Pass: Check for partial matches / shortcut phrases across all locations
+    input_words = normalized_input.split()
     
+    # Evaluate word combinations (e.g., bigrams like "old nda" or single words like "sabon")
+    for length in range(min(3, len(input_words)), 0, -1):
+        for i in range(len(input_words) - length + 1):
+            phrase = " ".join(input_words[i:i+length])
+            if "_" in phrase or len(phrase) < 3: 
+                continue
+                
+            for loc in all_locations:
+                # If the partial phrase is a substring of an official location name
+                if phrase in loc:
+                    orig_pos = normalize(user_input).find(phrase)
+                    if orig_pos != -1:
+                        found_with_pos.append((orig_pos, loc))
+                        # Mask it out so the third pass ignores it
+                        normalized_input = normalized_input.replace(phrase, "_" * len(phrase), 1)
+                        break
+                        
+    # 3. Third Pass: Clean up remaining individual words with fuzzy matching for typos
+    words = [w for w in normalized_input.split() if "_" not in w]
     for word in words:
-        if len(word) < 4:  # Skip trivial words like "to", "from", "and"
+        if len(word) < 4:
             continue
-            
-        # Match against database locations (cutoff=0.7 is 70% matching strictness)
         matches = difflib.get_close_matches(word, all_locations, n=1, cutoff=0.7)
-        
         if matches:
             corrected_loc = matches[0]
-            # Find the position of the typo in the original normalized text
             pos = normalize(user_input).find(word)
             if pos != -1:
                 found_with_pos.append((pos, corrected_loc))
                 
-    # Sort all found locations by where they appeared in the user's sentence
+    # Sort all dynamically extracted nodes by original sentence position layout
     found_with_pos.sort(key=lambda x: x[0])
     
-    # Filter out duplicates while maintaining sentence order
+    # Deduplicate entries while fully maintaining sentence contextual sequence
     final_locations = []
     for pos, loc in found_with_pos:
         if loc not in final_locations:
