@@ -2,13 +2,13 @@
   "sabon tasha|barnawa": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1000 – ₦1400",
-      "duration": "35–55 mins",
+      "fare": "₦800 – ₦1,100",
+      "duration": "20–35 mins",
       "notes": "Head to the main Kachia Road corridor at Sabon Tasha Garage, the market, or any major bus stop and board a keke heading to Station or Gari, drop at Command Junction, then cross to the Barnawa link road loading point and board another keke that will take you into Barnawa, where you can drop at Barnawa Market, the Shopping Complex, or along the main boulevard."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "45–65 mins",
       "notes": "Board a bus from the Sabon Tasha Garage or along Kachia Road heading into town, drop before Station Roundabout, walk to the Barnawa bus loading point, then board a bus to Barnawa."
     }
@@ -16,13 +16,13 @@
   "sabon tasha|kawo": [
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "35–60 mins",
       "notes": "Head to the main Sabon Tasha Garage or wait along the roadside near the market, look for a bus with conductors calling “Kawo! Kawo!”, then board it and travel along Kachia Road through Command Junction, across the bridge to Station Roundabout, continue on Ahmadu Bello Way past the Central Market, Stadium Roundabout, and NDA, and drop at Kawo Flyover/Kawo Terminal."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1000 – ₦1400",
+      "fare": "₦1,000 – ₦1,400",
       "duration": "45–55 mins",
       "notes": "Board a keke from Sabon Tasha heading towards town along Kachia Road, drop at Station Roundabout, then cross over to the Kawo/Ahmadu Bello Way loading point and board a direct keke heading north past Stadium Roundabout and NDA to Kawo Flyover/Kawo Garage."
     }
@@ -30,13 +30,13 @@
   "sabon tasha|tudun wada": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦900 – ₦1300",
+      "fare": "₦900 – ₦1,300",
       "duration": "30–45 mins",
       "notes": "Stand along Kachia Road or head to the Sabon Tasha market axis and board any keke heading toward town (Gari), alight at Station Roundabout, then cross over to the Polytechnic Road/Ibrahim Taiwo Road axis and board a keke heading to Tudun Wada, which will take you over the bridge/bypass area and drop you in the heart of Tudun Wada."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "30–45 mins",
       "notes": "Head to the main Sabon Tasha Garage or board any bus along Kachia Road heading into town (Gari), drop at Station Roundabout, then walk to the right side of the roundabout or the nearby motor park and board a local bus heading to Tudun Wada via Ibrahim Taiwo Road or Kaduna Polytechnic."
     }
@@ -58,13 +58,13 @@
   "sabon tasha|ungwan rimi": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1000 – ₦1400",
+      "fare": "₦1,000 – ₦1,400",
       "duration": "35–40 mins",
       "notes": "Stand along Kachia Road in Sabon Tasha and board a keke heading into town (Kasuwa or Gari), drop at either Central Market or Station Roundabout, then walk to nearby to the designated keke loading point and board a keke heading to Ungwan Rimi."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "35–55 mins",
       "notes": "Go to the main Sabon Tasha Garage or stand along Kachia Road, board a commercial bus (Danfo) with conductors calling “Kasuwa!” (Market) or “Town/Gari,” then travel along Kachia Road through Command Junction, across Station Roundabout, and continue on Ahmadu Bello Way to the Central Market axis or Leventis."
     }
@@ -72,13 +72,13 @@
   "barnawa|sabon tasha": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦800 – ₦1100",
+      "fare": "₦800 – ₦1,100",
       "duration": "20–35 mins",
       "notes": "Board any keke from Barnawa Market, the Shopping Complex, or along the main Barnawa Road heading toward the expressway/bypass, drop at Command Junction, then cross to the side of Kachia Road heading south and board a keke to Sabon Tasha."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1000",
+      "fare": "₦800 – ₦1,000",
       "duration": "35–40 mins",
       "notes": "Head to the main Barnawa Road or the Barnawa Market/Shopping Complex axis and board a bus heading toward the bypass or Command Junction, drop at Command Junction, then walk to the roadside loading point along Kachia Road on the side heading south toward Sabon Tasha."
     }
@@ -100,13 +100,13 @@
   "barnawa|kawo": [
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "40–55 mins",
       "notes": "Head to the main Barnawa Road near Barnawa Market or the Shopping Complex axis and board a bus heading to Kasuwa or Town, alight at Central Market (Kasuwa) or Leventis, then board another bus heading to Kawo, which will travel along Ahmadu Bello Way past Stadium Roundabout and NDA to Kawo Flyover/Kawo Garage."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1000 – ₦1400",
+      "fare": "₦1,000 – ₦1,400",
       "duration": "35–45 mins",
       "notes": "Stand along the main Barnawa Road or near Barnawa Market/Shopping Complex, board a keke heading to Kasuwa or Gari, drop at either Station Roundabout or Central Market, then proceed to the Kawo loading point and board a keke heading north past Stadium Roundabout and NDA to Kawo Flyover/Kawo Garage."
     }
@@ -114,13 +114,13 @@
   "barnawa|ungwan rimi": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦900 – ₦1300",
+      "fare": "₦900 – ₦1,300",
       "duration": "25–40 mins",
       "notes": "Head to the main Barnawa Road or the Barnawa Market/Shopping Complex axis and board a keke heading to Kasuwa or Gari, drop at either Station Roundabout or Central Market, then proceed to the Ungwan Rimi loading point and board a keke heading via Independence Way or Ali Akilu Road to Ungwan Rimi, where you can drop around the Sultan Bello Mosque axis, Sarki Road, or the estate area."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
+      "fare": "₦800 – ₦1,200",
       "duration": "35–45 mins",
       "notes": "Stand along the main Barnawa Road or near Barnawa Market or the Shopping Complex axis and board a bus heading to Kasuwa or Town, drop at Central Market (Kasuwa) or Leventis, then proceed to the nearby loading point around Kano Road and board a bus heading to Ungwan Rimi via Independence Way, where you can drop at the main bus stops entering the area."
     }
@@ -130,7 +130,7 @@
       "vehicle": "Keke (Tricycle)",
       "fare": "₦400 – ₦500",
       "duration": "15–20 mins",
-      "notes": "Board keke at Barnawa heading towards Television area."
+      "notes": "Head to the main road near the Barnawa Market, Shopping Complex, or toward the link road axis leading to the bypass and board a keke heading towards Television or Command Junction, which will cut through the internal link roads or drop out onto the expressway briefly, heading straight past the Peugeot/PAN axis into Television, where you can drop near the Television Garage or the Kaduna Poly CASSS campus."
     },
     {
       "vehicle": "Bus",
@@ -142,41 +142,41 @@
   "kawo|sabon tasha": [
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1200",
-      "duration": "55–60 mins",
+      "fare": "₦800 – ₦1,200",
+      "duration": "35–50 mins",
       "notes": "Head to the main Kawo Garage area or the loading point near Kawo Flyover and board a bus with conductors calling “Sabon Tasha!”, “Tasha!”, or “Kachia Road!”, then travel south along Ahmadu Bello Way through Central Market, across the bridge to Station Roundabout, continue along Kachia Road past Television Garage and Command Junction, and drop at the Sabon Tasha Garage or market area."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1100 – ₦1500",
-      "duration": "40–50 mins",
+      "fare": "₦1,100 – ₦1,500",
+      "duration": "40–60 mins",
       "notes": "Head to the Kawo Flyover/Kawo Garage axis or stand along Ahmadu Bello Way and board a keke heading to Kasuwa or Gari, drop at either Central Market or Station Roundabout, then proceed to the Sabon Tasha loading point and board a keke heading across the bridge along Kachia Road past Television and Command Junction to the Sabon Tasha market or garage axis."
     }
   ],
   "kawo|barnawa": [
     {
       "vehicle": "Bus",
-      "fare": "₦800 – ₦1100",
-      "duration": "45–55 mins",
+      "fare": "₦800 – ₦1,200",
+      "duration": "30–45 mins",
       "notes": "Head to the Kawo Garage area or the loading points near Kawo Flyover and board a bus heading to Kasuwa or Gari, drop at Central Market (Kasuwa) or Leventis, then walk to the nearby loading point around Kano Road and board a bus heading to Barnawa, which will cross the bridge past Station Roundabout and take you into Barnawa, where you can drop at Barnawa Market or the Shopping Complex."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦1000 – ₦1400",
-      "duration": "30–45 mins",
+      "fare": "₦1,000 – ₦1,400",
+      "duration": "35–55 mins",
       "notes": "Head to the Kawo Flyover/Kawo Garage axis or along Ahmadu Bello Way and board a keke heading to Kasuwa or Gari, drop at either Central Market or Station Roundabout, then proceed to the Barnawa loading point and board a keke that crosses the bridge into Barnawa, where you can drop at Barnawa Market, the Shopping Complex, or along the main residential boulevard."
     }
   ],
   "kawo|ungwan rimi": [
     {
       "vehicle": "Bus",
-      "fare": "₦400 – ₦500",
-      "duration": "20–30 mins",
+      "fare": "₦700 – ₦1,000",
+      "duration": "15–25 mins",
       "notes": "Head to the Kawo Garage area or the loading points near Kawo Flyover and board a bus heading to Kasuwa or Town, drop at NDA Junction (Badarawa Junction), then cross to the nearby loading point and board a bus heading into Ungwan Rimi, where you can drop at the main bus stops within the residential area."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦500 – ₦600",
+      "fare": "₦500 – ₦800",
       "duration": "15–25 mins",
       "notes": "Head to the Kawo Flyover area or stand along the main roadside and board a keke heading to Ungwan Rimi (U/Rimi), then travel south along Ali Akilu Road and continue into Ungwan Rimi, where you can drop around the Sultan Bello Mosque axis or Sarki Road."
     }
@@ -184,37 +184,37 @@
   "kawo|tudun wada": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦900 – ₦1200",
-      "duration": "35–40 mins",
+      "fare": "₦900 – ₦1,300",
+      "duration": "30–45 mins",
       "notes": "Head to the Kawo Flyover/Kawo Garage axis or along Ahmadu Bello Way and board a keke heading to Kasuwa or Gari, drop at Central Market (around Kano Road or Katsina Road), then proceed to the Tudun Wada loading point and board a keke heading to Tudun Wada or Poly, which will take you across the bypass/bridge area and drop you in the heart of Tudun Wada."
     },
     {
       "vehicle": "Bus",
-      "fare": "₦700 – ₦1150",
-      "duration": "40–55 mins",
+      "fare": "₦700 – ₦1,100",
+      "duration": "30–45 mins",
       "notes": "Head to the main Kawo Garage or the loading point near Kawo Flyover and board a bus heading to Kasuwa or Town, drop at Central Market (around Kano Road or Katsina Road), then walk to the nearby loading point and board a bus heading to Tudun Wada or Poly Road, which will cross toward the western side of the river/rail line and drop you along the main road in Tudun Wada."
     }
   ],
   "kawo|kaduna central": [
     {
       "vehicle": "Bus",
-      "fare": "₦300 – ₦400",
+      "fare": "₦400 – ₦600",
       "duration": "15–25 mins",
       "notes": "Head to the main Kawo Garage area or the loading points near Kawo Flyover and board a bus heading to Kasuwa or Town, then travel south past NDA Junction, Badarawa Junction, and Stadium Roundabout, and drop at the Central Market (Kasuwa) axis near Kano Road or Leventis."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦300 – ₦500",
-      "duration": "25–30 mins",
+      "fare": "₦500 – ₦700",
+      "duration": "15–25 mins",
       "notes": "Head to the Kawo Flyover, Kawo Garage area, or anywhere along Ahmadu Bello Way and board a keke heading to Kasuwa or Town/Gari, then travel south past NDA Junction, Badarawa Junction, and drop at Central Market (Kasuwa) or around the Kano Road/Ahmadu Bello Way intersection."
     }
   ],
   "kawo|kaduna north": [
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦300 – ₦150",
-      "duration": "10–15 mins",
-      "notes": "Short keke ride from Kawo to Kaduna North."
+      "fare": "₦500 – ₦700",
+      "duration": "15–25 mins",
+      "notes": "Head to the Kawo Flyover, Kawo Garage area, or stand anywhere along the main Ahmadu Bello Way axis in Kawo and board a keke heading to Kasuwa or Gari, then drop off along the Ali Akilu Road axis, Ungwan Sarki, or the Central Market area, as Kawo is already located within the Kaduna North local government area and this straight-line ride puts you right into the heart of the district."
     },
     {
       "vehicle": "Bus",
@@ -226,15 +226,15 @@
   "kaduna central|barnawa": [
     {
       "vehicle": "Bus",
-      "fare": "₦200 – ₦250",
-      "duration": "20–30 mins",
-      "notes": "Board a bus from central Kaduna heading to Barnawa."
+      "fare": "₦400 – ₦600",
+      "duration": "15–25 mins",
+      "notes": "Head to the commercial bus loading points around the Central Market (Kasuwa) axis, typically near Kano Road or Leventis, and board a commercial bus (Danfo) calling out Barnawa, which will take you south past Station Roundabout and cross the bridge straight into the estate, where you can drop at Barnawa Market, the Shopping Complex, or along the main boulevard."
     },
     {
       "vehicle": "Keke (Tricycle)",
-      "fare": "₦350 – ₦500",
+      "fare": "₦500 – ₦700",
       "duration": "15–25 mins",
-      "notes": "Board keke at Kaduna Central for a faster ride to Barnawa."
+      "notes": "Head to the designated terminals around the Central Market (Kasuwa) axis, near Kano Road or Ahmadu Bello Way, and board a keke calling out Barnawa, which will take you straight south across the main bridge over the river and rail line, directly entering the estate where you can drop at Barnawa Market, the Shopping Complex, or along the main boulevard."
     }
   ],
   "kaduna central|sabon tasha": [
