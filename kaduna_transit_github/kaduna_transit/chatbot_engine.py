@@ -1,11 +1,13 @@
 import string
 import json
 import os
+import difflib  # Added for fallback spelling correction
 
 ROUTES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "routes.json")
 
 
 def load_routes():
+    """Load routes from JSON file at runtime so new routes work immediately."""
     if not os.path.exists(ROUTES_FILE):
         from transport_data import TRANSPORT_ROUTES
         routes = {}
@@ -17,6 +19,7 @@ def load_routes():
 
 
 def get_all_locations():
+    """Derive all known locations from routes.json dynamically."""
     routes = load_routes()
     locs = set()
     for key in routes:
@@ -34,16 +37,50 @@ def normalize(text):
 
 
 def extract_locations(user_input):
+    """
+    Extracts Kaduna locations from user input.
+    First checks for exact matches to preserve clean multi-word areas,
+    then falls back to fuzzy matching for remaining words to catch typos.
+    """
     normalized_input = normalize(user_input)
     all_locations = get_all_locations()
     found_with_pos = []
+    
+    # 1. Check for exact matches first (prevents multi-word locations from breaking)
     for loc in all_locations:
         pos = normalized_input.find(loc)
         if pos != -1:
             found_with_pos.append((pos, loc))
+            # Mask out the matched location so its individual words aren't double-checked
             normalized_input = normalized_input.replace(loc, "_" * len(loc), 1)
+            
+    # 2. Split remaining unmasked text into words to catch typos
+    words = [w for w in normalized_input.split() if "_" not in w]
+    
+    for word in words:
+        if len(word) < 4:  # Skip trivial words like "to", "from", "and"
+            continue
+            
+        # Match against database locations (cutoff=0.7 is 70% matching strictness)
+        matches = difflib.get_close_matches(word, all_locations, n=1, cutoff=0.7)
+        
+        if matches:
+            corrected_loc = matches[0]
+            # Find the position of the typo in the original normalized text
+            pos = normalize(user_input).find(word)
+            if pos != -1:
+                found_with_pos.append((pos, corrected_loc))
+                
+    # Sort all found locations by where they appeared in the user's sentence
     found_with_pos.sort(key=lambda x: x[0])
-    return [loc for pos, loc in found_with_pos]
+    
+    # Filter out duplicates while maintaining sentence order
+    final_locations = []
+    for pos, loc in found_with_pos:
+        if loc not in final_locations:
+            final_locations.append(loc)
+            
+    return final_locations
 
 
 GREETING_WORDS = {"hello", "hi", "hey", "good morning", "good afternoon", "good evening"}
